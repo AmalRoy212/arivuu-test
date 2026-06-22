@@ -1,0 +1,1262 @@
+{
+  "meta": {
+    "total": 155,
+    "lastUpdated": "2025-06-10"
+  },
+  "categories": [
+    "Science & Technology",
+    "Engineering",
+    "Medicine & Healthcare",
+    "Commerce & Finance",
+    "Law & Public Service",
+    "Arts, Design & Media",
+    "Hospitality & Tourism",
+    "Education & Training",
+    "Aviation & Defense",
+    "Sports & Fitness",
+    "Agriculture & Environment",
+    "Emerging & Interdisciplinary"
+  ],
+  "careers": [
+    {
+      "id": "software-engineer",
+      "name": "Software Engineer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Design, build, and maintain software applications, platforms, and systems.",
+      "growth": "High"
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Analyze complex data to drive business insights using statistics and machine learning.",
+      "growth": "High"
+    },
+    {
+      "id": "cybersecurity-analyst",
+      "name": "Cybersecurity Analyst",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Protect organizations from digital threats and secure networks and data.",
+      "growth": "High"
+    },
+    {
+      "id": "cloud-architect",
+      "name": "Cloud Architect",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Design scalable cloud infrastructure on AWS, Azure, or Google Cloud.",
+      "growth": "High"
+    },
+    {
+      "id": "ai-ml-engineer",
+      "name": "AI / ML Engineer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Build intelligent systems using artificial intelligence and deep learning.",
+      "growth": "High"
+    },
+    {
+      "id": "full-stack-developer",
+      "name": "Full Stack Developer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Develop both front-end and back-end web applications end to end.",
+      "growth": "High"
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Automate deployment pipelines and manage infrastructure at scale.",
+      "growth": "High"
+    },
+    {
+      "id": "blockchain-developer",
+      "name": "Blockchain Developer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Build decentralized applications and smart contract systems.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "game-developer",
+      "name": "Game Developer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Create interactive video games for consoles, PC, and mobile.",
+      "growth": "Medium"
+    },
+    {
+      "id": "ui/ux-designer",
+      "name": "UI/UX Designer",
+      "category": "Science & Technology",
+      "stream": "Any Stream",
+      "description": "Design intuitive digital experiences focused on user needs and usability.",
+      "growth": "High"
+    },
+    {
+      "id": "database-administrator",
+      "name": "Database Administrator",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Manage, optimize, and secure organizational database systems.",
+      "growth": "Medium"
+    },
+    {
+      "id": "network-engineer",
+      "name": "Network Engineer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Plan and maintain computer networks for businesses and institutions.",
+      "growth": "Medium"
+    },
+    {
+      "id": "mobile-app-developer",
+      "name": "Mobile App Developer",
+      "category": "Science & Technology",
+      "stream": "PCM / CS",
+      "description": "Build native and cross-platform apps for iOS and Android.",
+      "growth": "High"
+    },
+    {
+      "id": "robotics-engineer",
+      "name": "Robotics Engineer",
+      "category": "Science & Technology",
+      "stream": "PCM",
+      "description": "Design and program robots for manufacturing, healthcare, and research.",
+      "growth": "High"
+    },
+    {
+      "id": "quantum-computing-researcher",
+      "name": "Quantum Computing Researcher",
+      "category": "Science & Technology",
+      "stream": "PCM",
+      "description": "Explore next-generation computing using quantum mechanics principles.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "mechanical-engineer",
+      "name": "Mechanical Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Design machines, engines, and mechanical systems for industry.",
+      "growth": "Medium"
+    },
+    {
+      "id": "civil-engineer",
+      "name": "Civil Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Plan and oversee construction of infrastructure like roads and bridges.",
+      "growth": "Medium"
+    },
+    {
+      "id": "electrical-engineer",
+      "name": "Electrical Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Work with power systems, electronics, and electrical equipment.",
+      "growth": "Medium"
+    },
+    {
+      "id": "electronics-engineer",
+      "name": "Electronics Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Design electronic circuits, devices, and embedded systems.",
+      "growth": "Medium"
+    },
+    {
+      "id": "chemical-engineer",
+      "name": "Chemical Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Apply chemistry and physics to industrial processes and manufacturing.",
+      "growth": "Medium"
+    },
+    {
+      "id": "aerospace-engineer",
+      "name": "Aerospace Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Design aircraft, spacecraft, and related propulsion systems.",
+      "growth": "High"
+    },
+    {
+      "id": "automobile-engineer",
+      "name": "Automobile Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Develop vehicles including EVs, engines, and automotive systems.",
+      "growth": "Medium"
+    },
+    {
+      "id": "biomedical-engineer",
+      "name": "Biomedical Engineer",
+      "category": "Engineering",
+      "stream": "PCM / PCB",
+      "description": "Combine engineering with biology to create medical devices.",
+      "growth": "High"
+    },
+    {
+      "id": "environmental-engineer",
+      "name": "Environmental Engineer",
+      "category": "Engineering",
+      "stream": "PCM / PCB",
+      "description": "Solve environmental problems related to water, air, and waste.",
+      "growth": "Medium"
+    },
+    {
+      "id": "petroleum-engineer",
+      "name": "Petroleum Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Extract oil and gas resources efficiently and sustainably.",
+      "growth": "Medium"
+    },
+    {
+      "id": "mining-engineer",
+      "name": "Mining Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Plan and manage extraction of minerals and natural resources.",
+      "growth": "Medium"
+    },
+    {
+      "id": "industrial-engineer",
+      "name": "Industrial Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Optimize complex processes, systems, and organizations.",
+      "growth": "Medium"
+    },
+    {
+      "id": "marine-engineer",
+      "name": "Marine Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Design and maintain ship engines and marine propulsion systems.",
+      "growth": "Medium"
+    },
+    {
+      "id": "nanotechnology-engineer",
+      "name": "Nanotechnology Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Work at molecular scale to develop advanced materials and devices.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "renewable-energy-engineer",
+      "name": "Renewable Energy Engineer",
+      "category": "Engineering",
+      "stream": "PCM",
+      "description": "Design solar, wind, and other clean energy systems.",
+      "growth": "High"
+    },
+    {
+      "id": "doctor-mbbs",
+      "name": "Doctor (MBBS)",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Diagnose and treat illnesses; pursue specializations after graduation.",
+      "growth": "High"
+    },
+    {
+      "id": "dentist",
+      "name": "Dentist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Provide oral healthcare including surgery, prevention, and cosmetics.",
+      "growth": "High"
+    },
+    {
+      "id": "pharmacist",
+      "name": "Pharmacist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Dispense medications and advise on drug interactions and dosage.",
+      "growth": "Medium"
+    },
+    {
+      "id": "physiotherapist",
+      "name": "Physiotherapist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Help patients recover movement and manage pain through therapy.",
+      "growth": "High"
+    },
+    {
+      "id": "nurse",
+      "name": "Nurse",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Provide patient care in hospitals, clinics, and community settings.",
+      "growth": "High"
+    },
+    {
+      "id": "medical-researcher",
+      "name": "Medical Researcher",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Conduct clinical and laboratory research to advance healthcare.",
+      "growth": "High"
+    },
+    {
+      "id": "radiologist",
+      "name": "Radiologist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Use imaging technology to diagnose diseases and injuries.",
+      "growth": "High"
+    },
+    {
+      "id": "psychiatrist",
+      "name": "Psychiatrist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Diagnose and treat mental health disorders with therapy and medication.",
+      "growth": "High"
+    },
+    {
+      "id": "nutritionist-dietitian",
+      "name": "Nutritionist / Dietitian",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Guide individuals on diet plans for health and wellness goals.",
+      "growth": "Medium"
+    },
+    {
+      "id": "occupational-therapist",
+      "name": "Occupational Therapist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Help people regain skills for daily living and work.",
+      "growth": "Medium"
+    },
+    {
+      "id": "veterinarian",
+      "name": "Veterinarian",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Diagnose and treat illnesses in animals and livestock.",
+      "growth": "Medium"
+    },
+    {
+      "id": "public-health-specialist",
+      "name": "Public Health Specialist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Improve community health through policy, education, and programs.",
+      "growth": "High"
+    },
+    {
+      "id": "speech-therapist",
+      "name": "Speech Therapist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Treat communication and swallowing disorders in patients.",
+      "growth": "Medium"
+    },
+    {
+      "id": "biotechnologist",
+      "name": "Biotechnologist",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Apply biology and technology in medicine, agriculture, and industry.",
+      "growth": "High"
+    },
+    {
+      "id": "genetic-counselor",
+      "name": "Genetic Counselor",
+      "category": "Medicine & Healthcare",
+      "stream": "PCB",
+      "description": "Advise families on genetic conditions and testing options.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "chartered-accountant",
+      "name": "Chartered Accountant",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Manage financial records, audits, taxation, and compliance.",
+      "growth": "High"
+    },
+    {
+      "id": "investment-banker",
+      "name": "Investment Banker",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Advise corporations on mergers, acquisitions, and capital raising.",
+      "growth": "High"
+    },
+    {
+      "id": "financial-analyst",
+      "name": "Financial Analyst",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Analyze financial data to guide investment and business decisions.",
+      "growth": "High"
+    },
+    {
+      "id": "company-secretary",
+      "name": "Company Secretary",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Ensure corporate governance and regulatory compliance.",
+      "growth": "Medium"
+    },
+    {
+      "id": "actuary",
+      "name": "Actuary",
+      "category": "Commerce & Finance",
+      "stream": "Commerce / PCM",
+      "description": "Assess financial risk using mathematics and statistics.",
+      "growth": "High"
+    },
+    {
+      "id": "stock-broker",
+      "name": "Stock Broker",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Facilitate buying and selling of securities for clients.",
+      "growth": "Medium"
+    },
+    {
+      "id": "economist",
+      "name": "Economist",
+      "category": "Commerce & Finance",
+      "stream": "Commerce / Arts",
+      "description": "Study economic trends and advise on policy and business strategy.",
+      "growth": "Medium"
+    },
+    {
+      "id": "tax-consultant",
+      "name": "Tax Consultant",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Help individuals and businesses with tax planning and filing.",
+      "growth": "Medium"
+    },
+    {
+      "id": "insurance-underwriter",
+      "name": "Insurance Underwriter",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Evaluate and price insurance policies based on risk assessment.",
+      "growth": "Medium"
+    },
+    {
+      "id": "wealth-manager",
+      "name": "Wealth Manager",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Manage high-net-worth client portfolios and financial planning.",
+      "growth": "High"
+    },
+    {
+      "id": "forensic-accountant",
+      "name": "Forensic Accountant",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Investigate financial fraud and provide litigation support.",
+      "growth": "Medium"
+    },
+    {
+      "id": "risk-manager",
+      "name": "Risk Manager",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Identify and mitigate financial and operational business risks.",
+      "growth": "High"
+    },
+    {
+      "id": "fintech-product-manager",
+      "name": "Fintech Product Manager",
+      "category": "Commerce & Finance",
+      "stream": "Commerce / CS",
+      "description": "Build digital financial products like payments and lending apps.",
+      "growth": "High"
+    },
+    {
+      "id": "venture-capital-analyst",
+      "name": "Venture Capital Analyst",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Evaluate startups for investment and portfolio growth.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "compliance-officer",
+      "name": "Compliance Officer",
+      "category": "Commerce & Finance",
+      "stream": "Commerce",
+      "description": "Ensure organizations follow laws, regulations, and standards.",
+      "growth": "Medium"
+    },
+    {
+      "id": "lawyer-advocate",
+      "name": "Lawyer / Advocate",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Represent clients in legal matters and argue cases in court.",
+      "growth": "High"
+    },
+    {
+      "id": "judge",
+      "name": "Judge",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Preside over court proceedings and deliver legal judgments.",
+      "growth": "Medium"
+    },
+    {
+      "id": "legal-advisor",
+      "name": "Legal Advisor",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Provide legal counsel to corporations, NGOs, and individuals.",
+      "growth": "High"
+    },
+    {
+      "id": "corporate-lawyer",
+      "name": "Corporate Lawyer",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Handle contracts, mergers, and corporate legal compliance.",
+      "growth": "High"
+    },
+    {
+      "id": "civil-services-ias/ips",
+      "name": "Civil Services (IAS/IPS)",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Serve in government administration, policy, and public safety.",
+      "growth": "High"
+    },
+    {
+      "id": "diplomat-foreign-service",
+      "name": "Diplomat / Foreign Service",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Represent India in international relations and embassies.",
+      "growth": "Medium"
+    },
+    {
+      "id": "human-rights-lawyer",
+      "name": "Human Rights Lawyer",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Advocate for justice and protection of fundamental rights.",
+      "growth": "Medium"
+    },
+    {
+      "id": "intellectual-property-lawyer",
+      "name": "Intellectual Property Lawyer",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Protect patents, trademarks, and creative works legally.",
+      "growth": "High"
+    },
+    {
+      "id": "public-policy-analyst",
+      "name": "Public Policy Analyst",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Research and shape government policies and programs.",
+      "growth": "High"
+    },
+    {
+      "id": "urban-planner",
+      "name": "Urban Planner",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Design sustainable cities, zoning, and public infrastructure.",
+      "growth": "Medium"
+    },
+    {
+      "id": "social-worker",
+      "name": "Social Worker",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Support communities facing poverty, abuse, and hardship.",
+      "growth": "Medium"
+    },
+    {
+      "id": "ngo-program-manager",
+      "name": "NGO Program Manager",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Lead development projects for education, health, and welfare.",
+      "growth": "Medium"
+    },
+    {
+      "id": "arbitrator-mediator",
+      "name": "Arbitrator / Mediator",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Resolve disputes outside traditional court systems.",
+      "growth": "Medium"
+    },
+    {
+      "id": "environmental-lawyer",
+      "name": "Environmental Lawyer",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Advocate for environmental protection and sustainability law.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "cyber-law-specialist",
+      "name": "Cyber Law Specialist",
+      "category": "Law & Public Service",
+      "stream": "Any Stream",
+      "description": "Handle legal issues related to digital crimes and data privacy.",
+      "growth": "High"
+    },
+    {
+      "id": "graphic-designer",
+      "name": "Graphic Designer",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Create visual content for brands, print, and digital media.",
+      "growth": "Medium"
+    },
+    {
+      "id": "fashion-designer",
+      "name": "Fashion Designer",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Design clothing, accessories, and fashion collections.",
+      "growth": "Medium"
+    },
+    {
+      "id": "interior-designer",
+      "name": "Interior Designer",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Plan functional and aesthetic interior spaces for clients.",
+      "growth": "Medium"
+    },
+    {
+      "id": "architect",
+      "name": "Architect",
+      "category": "Arts, Design & Media",
+      "stream": "PCM / Arts",
+      "description": "Design buildings and spaces balancing form and function.",
+      "growth": "High"
+    },
+    {
+      "id": "animator",
+      "name": "Animator",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Create animated content for films, games, and advertising.",
+      "growth": "Medium"
+    },
+    {
+      "id": "film-director",
+      "name": "Film Director",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Lead creative vision and production of films and videos.",
+      "growth": "Medium"
+    },
+    {
+      "id": "journalist",
+      "name": "Journalist",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Research and report news across print, TV, and digital media.",
+      "growth": "Medium"
+    },
+    {
+      "id": "content-creator",
+      "name": "Content Creator",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Produce engaging content for YouTube, social media, and blogs.",
+      "growth": "High"
+    },
+    {
+      "id": "photographer",
+      "name": "Photographer",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Capture images for events, fashion, journalism, and art.",
+      "growth": "Medium"
+    },
+    {
+      "id": "art-director",
+      "name": "Art Director",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Oversee visual style for advertising, film, and publications.",
+      "growth": "Medium"
+    },
+    {
+      "id": "music-producer",
+      "name": "Music Producer",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Compose, arrange, and produce music across genres.",
+      "growth": "Medium"
+    },
+    {
+      "id": "copywriter",
+      "name": "Copywriter",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Write persuasive marketing and advertising copy.",
+      "growth": "Medium"
+    },
+    {
+      "id": "video-editor",
+      "name": "Video Editor",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Edit footage for films, YouTube, and corporate videos.",
+      "growth": "High"
+    },
+    {
+      "id": "brand-strategist",
+      "name": "Brand Strategist",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Define brand identity, positioning, and marketing strategy.",
+      "growth": "High"
+    },
+    {
+      "id": "museum-curator",
+      "name": "Museum Curator",
+      "category": "Arts, Design & Media",
+      "stream": "Any Stream",
+      "description": "Manage collections and exhibitions at museums and galleries.",
+      "growth": "Medium"
+    },
+    {
+      "id": "hotel-manager",
+      "name": "Hotel Manager",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Oversee hotel operations, guest services, and staff.",
+      "growth": "Medium"
+    },
+    {
+      "id": "chef-culinary-artist",
+      "name": "Chef / Culinary Artist",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Create menus and lead kitchen teams in restaurants and hotels.",
+      "growth": "Medium"
+    },
+    {
+      "id": "event-manager",
+      "name": "Event Manager",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Plan and execute weddings, conferences, and corporate events.",
+      "growth": "High"
+    },
+    {
+      "id": "travel-consultant",
+      "name": "Travel Consultant",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Design travel itineraries and manage bookings for clients.",
+      "growth": "Medium"
+    },
+    {
+      "id": "airline-cabin-crew",
+      "name": "Airline Cabin Crew",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Ensure passenger safety and comfort during flights.",
+      "growth": "Medium"
+    },
+    {
+      "id": "tourism-officer",
+      "name": "Tourism Officer",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Promote destinations and manage tourism development programs.",
+      "growth": "Medium"
+    },
+    {
+      "id": "restaurant-manager",
+      "name": "Restaurant Manager",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Run daily operations of restaurants and food service businesses.",
+      "growth": "Medium"
+    },
+    {
+      "id": "cruise-ship-manager",
+      "name": "Cruise Ship Manager",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Manage hospitality services aboard cruise vessels.",
+      "growth": "Medium"
+    },
+    {
+      "id": "spa-&-wellness-manager",
+      "name": "Spa & Wellness Manager",
+      "category": "Hospitality & Tourism",
+      "stream": "Any Stream",
+      "description": "Lead wellness centers offering therapy and relaxation services.",
+      "growth": "Medium"
+    },
+    {
+      "id": "food-technologist",
+      "name": "Food Technologist",
+      "category": "Hospitality & Tourism",
+      "stream": "PCB / PCM",
+      "description": "Develop safe, nutritious, and innovative food products.",
+      "growth": "Medium"
+    },
+    {
+      "id": "school-teacher",
+      "name": "School Teacher",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Educate students in primary, secondary, or senior secondary grades.",
+      "growth": "Medium"
+    },
+    {
+      "id": "college-professor",
+      "name": "College Professor",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Teach and research at universities and higher education institutes.",
+      "growth": "Medium"
+    },
+    {
+      "id": "career-counsellor",
+      "name": "Career Counsellor",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Guide students in career exploration, planning, and decision-making.",
+      "growth": "High"
+    },
+    {
+      "id": "educational-consultant",
+      "name": "Educational Consultant",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Advise schools and institutions on curriculum and strategy.",
+      "growth": "High"
+    },
+    {
+      "id": "instructional-designer",
+      "name": "Instructional Designer",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Create effective learning materials and e-learning courses.",
+      "growth": "High"
+    },
+    {
+      "id": "special-education-teacher",
+      "name": "Special Education Teacher",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Support students with learning disabilities and special needs.",
+      "growth": "Medium"
+    },
+    {
+      "id": "corporate-trainer",
+      "name": "Corporate Trainer",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Deliver skill development programs for employees.",
+      "growth": "High"
+    },
+    {
+      "id": "edtech-product-manager",
+      "name": "EdTech Product Manager",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Build digital learning platforms and educational apps.",
+      "growth": "High"
+    },
+    {
+      "id": "academic-researcher",
+      "name": "Academic Researcher",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Conduct research and publish findings in academic fields.",
+      "growth": "Medium"
+    },
+    {
+      "id": "librarian",
+      "name": "Librarian",
+      "category": "Education & Training",
+      "stream": "Any Stream",
+      "description": "Manage library resources and support research and learning.",
+      "growth": "Medium"
+    },
+    {
+      "id": "commercial-pilot",
+      "name": "Commercial Pilot",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Fly passenger and cargo aircraft for airlines worldwide.",
+      "growth": "High"
+    },
+    {
+      "id": "air-traffic-controller",
+      "name": "Air Traffic Controller",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Manage safe takeoff, landing, and flight paths at airports.",
+      "growth": "Medium"
+    },
+    {
+      "id": "aircraft-maintenance-engineer",
+      "name": "Aircraft Maintenance Engineer",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Inspect and repair aircraft to ensure flight safety.",
+      "growth": "Medium"
+    },
+    {
+      "id": "indian-armed-forces-officer",
+      "name": "Indian Armed Forces Officer",
+      "category": "Aviation & Defense",
+      "stream": "Any Stream",
+      "description": "Serve in Army, Navy, or Air Force defending the nation.",
+      "growth": "Medium"
+    },
+    {
+      "id": "defense-research-scientist",
+      "name": "Defense Research Scientist",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Develop technology for DRDO and defense organizations.",
+      "growth": "High"
+    },
+    {
+      "id": "aviation-manager",
+      "name": "Aviation Manager",
+      "category": "Aviation & Defense",
+      "stream": "Any Stream",
+      "description": "Manage airport operations, logistics, and airline services.",
+      "growth": "Medium"
+    },
+    {
+      "id": "drone-operator-uav-pilot",
+      "name": "Drone Operator / UAV Pilot",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Operate unmanned aerial vehicles for mapping and delivery.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "space-scientist-isro",
+      "name": "Space Scientist (ISRO)",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Contribute to satellite launches and space exploration missions.",
+      "growth": "High"
+    },
+    {
+      "id": "merchant-navy-officer",
+      "name": "Merchant Navy Officer",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Navigate and manage commercial shipping vessels globally.",
+      "growth": "Medium"
+    },
+    {
+      "id": "flight-dispatcher",
+      "name": "Flight Dispatcher",
+      "category": "Aviation & Defense",
+      "stream": "PCM",
+      "description": "Plan flight routes, fuel, and weather for airline operations.",
+      "growth": "Medium"
+    },
+    {
+      "id": "professional-athlete",
+      "name": "Professional Athlete",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Compete at national and international levels in chosen sport.",
+      "growth": "Medium"
+    },
+    {
+      "id": "sports-coach",
+      "name": "Sports Coach",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Train athletes and teams to improve performance.",
+      "growth": "Medium"
+    },
+    {
+      "id": "sports-manager",
+      "name": "Sports Manager",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Handle contracts, sponsorships, and career management for athletes.",
+      "growth": "Medium"
+    },
+    {
+      "id": "fitness-trainer",
+      "name": "Fitness Trainer",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Design workout programs and guide clients toward fitness goals.",
+      "growth": "High"
+    },
+    {
+      "id": "sports-physiotherapist",
+      "name": "Sports Physiotherapist",
+      "category": "Sports & Fitness",
+      "stream": "PCB",
+      "description": "Treat and prevent sports-related injuries.",
+      "growth": "High"
+    },
+    {
+      "id": "sports-journalist",
+      "name": "Sports Journalist",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Cover sports events and stories for media outlets.",
+      "growth": "Medium"
+    },
+    {
+      "id": "sports-psychologist",
+      "name": "Sports Psychologist",
+      "category": "Sports & Fitness",
+      "stream": "PCB / Arts",
+      "description": "Help athletes with mental performance and motivation.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "esports-professional",
+      "name": "Esports Professional",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Compete in organized video game tournaments globally.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "yoga-instructor",
+      "name": "Yoga Instructor",
+      "category": "Sports & Fitness",
+      "stream": "Any Stream",
+      "description": "Teach yoga for physical and mental wellness.",
+      "growth": "Medium"
+    },
+    {
+      "id": "nutrition-coach-sports",
+      "name": "Nutrition Coach (Sports)",
+      "category": "Sports & Fitness",
+      "stream": "PCB",
+      "description": "Plan diet strategies for athletic performance and recovery.",
+      "growth": "High"
+    },
+    {
+      "id": "agricultural-scientist",
+      "name": "Agricultural Scientist",
+      "category": "Agriculture & Environment",
+      "stream": "PCB / PCM",
+      "description": "Research crop improvement, soil health, and farming techniques.",
+      "growth": "Medium"
+    },
+    {
+      "id": "horticulturist",
+      "name": "Horticulturist",
+      "category": "Agriculture & Environment",
+      "stream": "PCB",
+      "description": "Specialize in cultivation of fruits, vegetables, and ornamental plants.",
+      "growth": "Medium"
+    },
+    {
+      "id": "forestry-officer",
+      "name": "Forestry Officer",
+      "category": "Agriculture & Environment",
+      "stream": "PCB",
+      "description": "Manage forest resources, conservation, and wildlife protection.",
+      "growth": "Medium"
+    },
+    {
+      "id": "food-safety-officer",
+      "name": "Food Safety Officer",
+      "category": "Agriculture & Environment",
+      "stream": "PCB",
+      "description": "Ensure food products meet health and quality standards.",
+      "growth": "Medium"
+    },
+    {
+      "id": "climate-change-analyst",
+      "name": "Climate Change Analyst",
+      "category": "Agriculture & Environment",
+      "stream": "PCB / PCM",
+      "description": "Study environmental data and advise on sustainability policy.",
+      "growth": "High"
+    },
+    {
+      "id": "wildlife-biologist",
+      "name": "Wildlife Biologist",
+      "category": "Agriculture & Environment",
+      "stream": "PCB",
+      "description": "Research animal behavior, ecology, and conservation.",
+      "growth": "Medium"
+    },
+    {
+      "id": "aquaculture-specialist",
+      "name": "Aquaculture Specialist",
+      "category": "Agriculture & Environment",
+      "stream": "PCB",
+      "description": "Manage fish farming and aquatic food production.",
+      "growth": "Medium"
+    },
+    {
+      "id": "organic-farming-entrepreneur",
+      "name": "Organic Farming Entrepreneur",
+      "category": "Agriculture & Environment",
+      "stream": "Any Stream",
+      "description": "Build sustainable farming businesses with eco-friendly practices.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "environmental-consultant",
+      "name": "Environmental Consultant",
+      "category": "Agriculture & Environment",
+      "stream": "PCB / PCM",
+      "description": "Advise businesses on environmental compliance and green practices.",
+      "growth": "High"
+    },
+    {
+      "id": "water-resource-manager",
+      "name": "Water Resource Manager",
+      "category": "Agriculture & Environment",
+      "stream": "PCM / PCB",
+      "description": "Manage water supply, irrigation, and conservation projects.",
+      "growth": "Medium"
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "Prompt Engineer",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Design AI prompts and workflows for generative AI systems.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "sustainability-manager",
+      "name": "Sustainability Manager",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Lead corporate ESG initiatives and carbon reduction programs.",
+      "growth": "High"
+    },
+    {
+      "id": "digital-marketing-specialist",
+      "name": "Digital Marketing Specialist",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Drive online growth through SEO, ads, and social media.",
+      "growth": "High"
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Define and launch tech products based on user needs.",
+      "growth": "High"
+    },
+    {
+      "id": "human-resources-manager",
+      "name": "Human Resources Manager",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Manage recruitment, culture, and employee development.",
+      "growth": "High"
+    },
+    {
+      "id": "supply-chain-manager",
+      "name": "Supply Chain Manager",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Commerce / PCM",
+      "description": "Optimize logistics, procurement, and distribution networks.",
+      "growth": "High"
+    },
+    {
+      "id": "real-estate-developer",
+      "name": "Real Estate Developer",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Plan and build residential and commercial property projects.",
+      "growth": "Medium"
+    },
+    {
+      "id": "startup-founder",
+      "name": "Startup Founder",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Build and scale new ventures solving market problems.",
+      "growth": "High"
+    },
+    {
+      "id": "ethical-hacker",
+      "name": "Ethical Hacker",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "PCM / CS",
+      "description": "Test systems for vulnerabilities to improve security.",
+      "growth": "High"
+    },
+    {
+      "id": "metaverse-designer",
+      "name": "Metaverse Designer",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Create immersive virtual worlds and experiences.",
+      "growth": "Emerging"
+    },
+    {
+      "id": "bioinformatics-specialist",
+      "name": "Bioinformatics Specialist",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "PCB / CS",
+      "description": "Analyze biological data using computational tools.",
+      "growth": "High"
+    },
+    {
+      "id": "user-researcher",
+      "name": "User Researcher",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Study user behavior to improve products and services.",
+      "growth": "High"
+    },
+    {
+      "id": "operations-manager",
+      "name": "Operations Manager",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Oversee day-to-day business operations and efficiency.",
+      "growth": "Medium"
+    },
+    {
+      "id": "customer-success-manager",
+      "name": "Customer Success Manager",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Ensure clients achieve value from products and services.",
+      "growth": "High"
+    },
+    {
+      "id": "growth-hacker",
+      "name": "Growth Hacker",
+      "category": "Emerging & Interdisciplinary",
+      "stream": "Any Stream",
+      "description": "Use creative strategies to rapidly scale user acquisition.",
+      "growth": "Emerging"
+    }
+  ]
+}
