@@ -9,6 +9,8 @@
     '/contact': { page: 'contact', file: 'pages/contact.html' },
     '/services': { page: 'services', file: 'pages/services.html', defaultQuery: 'audience=school' },
     '/service': { page: 'service', file: 'pages/service.html' },
+    '/student': { page: 'student', file: 'pages/student.html' },
+    '/student/guide': { page: 'student-guide', file: 'pages/student-guide.html' },
     '/blog': { page: 'blog', file: 'pages/blog.html' },
     '/blog-post': { page: 'blog-post', file: 'pages/blog-post.html' }
   };
@@ -121,8 +123,18 @@
       outlet.innerHTML = html;
       outlet.classList.remove('is-loading');
       if (window.Arivuu.initPage) window.Arivuu.initPage(route.page, params);
-      window.scrollTo(0, 0);
-      if (path === '/') scrollToTarget(params);
+
+      function scrollTop() {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }
+
+      scrollTop();
+      requestAnimationFrame(function () {
+        scrollTop();
+        if (path === '/') scrollToTarget(params);
+      });
     };
 
     if (path === '/') {
@@ -184,6 +196,10 @@
       var name = window.location.pathname.split('/').pop().replace(/\.html$/, '');
       window.location.replace(basePath() + 'index.html#/' + name + window.location.search);
       return;
+    }
+
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
     }
 
     cacheHome();

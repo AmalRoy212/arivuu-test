@@ -299,6 +299,9 @@
       initStats();
       initGridScroll();
       initProgramFilters();
+    }
+
+    if (page === 'home') {
       initCarousel();
     }
   };

@@ -29,7 +29,7 @@
               '<p class="text-muted-text text-sm">Join ' + statsStudents + ' students who have found clarity with ' + brand + '.</p>' +
             '</div>' +
             '<div class="flex flex-col sm:flex-row gap-3 w-full lg:w-auto shrink-0">' +
-              '<a href="#/contact" class="w-full sm:w-auto text-center px-8 py-4 rounded-full border border-nebula/35 text-stardust text-sm font-medium hover:border-nebula/60 hover:bg-nebula/10 transition-all duration-300">Book demo</a>' +
+              '<a href="#/contact" class="btn-outline btn-outline-neutral btn-outline-lg w-full sm:w-auto text-center">Book demo</a>' +
               '<button type="button" data-open-contact data-contact-title="Get in touch" data-contact-subject="General enquiry" class="w-full sm:w-auto text-center px-8 py-4 rounded-full bg-nebula text-white text-sm font-medium hover:bg-nebula/80 transition-all duration-300 shadow-accent-lg hover:shadow-accent-xl">Get in touch</button>' +
             '</div>' +
           '</div>' +
@@ -45,17 +45,17 @@
             '<p class="text-muted-text text-sm leading-relaxed max-w-xs mb-6">' + description + '</p>' +
             '<div class="flex gap-3">' +
               (linkedinUrl
-                ? '<a href="' + linkedinUrl + '" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-nebula/10 border border-nebula/20 flex items-center justify-center hover:bg-nebula/20 transition-colors duration-300" aria-label="LinkedIn">' +
-                    '<svg class="icon text-nebula" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>' +
+                ? '<a href="' + linkedinUrl + '" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn">' +
+                    '<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>' +
                   '</a>'
                 : '') +
               (instagramUrl
-                ? '<a href="' + instagramUrl + '" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-nebula/10 border border-nebula/20 flex items-center justify-center hover:bg-nebula/20 transition-colors duration-300" aria-label="Instagram">' +
-                    '<svg class="icon text-nebula" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>' +
+                ? '<a href="' + instagramUrl + '" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Instagram">' +
+                    '<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>' +
                   '</a>'
                 : '') +
-              '<a href="mailto:' + email + '" class="w-10 h-10 rounded-full bg-nebula/10 border border-nebula/20 flex items-center justify-center hover:bg-nebula/20 transition-colors duration-300" aria-label="Email">' +
-                '<svg class="icon text-nebula" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>' +
+              '<a href="mailto:' + email + '" class="footer-social-btn" aria-label="Email">' +
+                '<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>' +
               '</a>' +
             '</div>' +
           '</div>' +

@@ -216,10 +216,10 @@
     container.innerHTML = programs.map(function (program) {
       var active = careerState.program === program;
       var label = program === 'All' ? 'All Programs' : program;
-      return '<button type="button" data-career-program="' + escapeHtml(program) + '" class="career-filter-btn px-4 py-2 rounded-full text-xs font-medium transition-all duration-300 ' +
+      return '<button type="button" data-career-program="' + escapeHtml(program) + '" class="career-filter-btn px-4 py-2 rounded-full text-xs font-medium ' +
         (active
           ? 'bg-nebula text-white shadow-accent-sm'
-          : 'border border-nebula/25 text-muted-text hover:text-stardust hover:border-nebula/40') +
+          : 'btn-outline btn-outline-muted') +
         '">' + escapeHtml(label) + '</button>';
     }).join('');
 
@@ -251,10 +251,10 @@
 
     container.innerHTML = cats.map(function (cat) {
       var active = blogState.category === cat;
-      return '<button type="button" data-blog-category="' + escapeHtml(cat) + '" class="blog-filter-btn px-4 py-2 rounded-full text-xs font-medium transition-all duration-300 ' +
+      return '<button type="button" data-blog-category="' + escapeHtml(cat) + '" class="blog-filter-btn px-4 py-2 rounded-full text-xs font-medium ' +
         (active
           ? 'bg-nebula text-white shadow-accent-sm'
-          : 'border border-nebula/25 text-muted-text hover:text-stardust hover:border-nebula/40') +
+          : 'btn-outline btn-outline-muted') +
         '">' + escapeHtml(cat === 'All' ? 'All Posts' : cat) + '</button>';
     }).join('');
 

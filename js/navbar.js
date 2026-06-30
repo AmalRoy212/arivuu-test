@@ -38,8 +38,14 @@
               '<img src="logo/logo-one.png" alt="" class="h-7 w-7 sm:h-8 sm:w-8 object-contain" draggable="false" />' +
               '<img src="logo/logo-text.png" alt="Arivuu" class="h-5 w-auto object-contain" draggable="false" />' +
             '</a>' +
-            '<div class="hidden lg:flex items-center gap-5 xl:gap-8">' +
-              links.map(function (l) { return navLink(l.href, l.label, l.active); }).join('') +
+            '<div class="nav-desktop-links hidden lg:flex items-center">' +
+              links.map(function (l, i) {
+                var html = navLink(l.href, l.label, l.active);
+                if (i < links.length - 1) {
+                  html += '<span class="nav-link-sep" aria-hidden="true">/</span>';
+                }
+                return html;
+              }).join('') +
             '</div>' +
             '<div class="flex items-center gap-2 sm:gap-3">' +
               '<a href="#/contact" class="pill-button pill-button-sm text-xs hidden sm:inline-flex">Begin Journey</a>' +

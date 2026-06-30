@@ -120,8 +120,10 @@
     return null;
   }
 
-  function bindContactForm(form, statusEl) {
+  function bindContactForm(form, statusEl, options) {
     if (!form || form.dataset.bound === '1') return;
+
+    options = options || {};
 
     form.dataset.bound = '1';
     form.addEventListener('submit', function (e) {
@@ -164,17 +166,47 @@
           statusEl: statusEl,
           payload: payload,
           showStatus: showFormStatus,
-          mailtoFallback: mailtoFallback
+          mailtoFallback: mailtoFallback,
+          onSuccess: function () {
+            if (typeof options.onSuccess === 'function') {
+              options.onSuccess();
+              closeContactModal();
+            }
+          }
         });
         return;
       }
 
       mailtoFallback();
       showFormStatus(statusEl, 'Opening your email client to send the message…', 'success');
+      if (typeof options.onSuccess === 'function') {
+        options.onSuccess();
+        closeContactModal();
+      }
     });
   }
 
-  function openContactModal(title, subject) {
+  function closeContactModal() {
+    var overlay = document.getElementById('content-modal');
+    if (!overlay) return;
+    overlay.classList.add('hidden');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function triggerFileDownload(url, filename) {
+    var link = document.createElement('a');
+    link.href = url;
+    link.download = filename || '';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  }
+
+  function openContactModal(title, subject, options) {
+    options = options || {};
     var overlay = document.getElementById('content-modal');
     var titleEl = document.getElementById('content-modal-title');
     var bodyEl = document.getElementById('content-modal-body');
@@ -185,7 +217,7 @@
 
     var form = bodyEl.querySelector('#contact-form-modal');
     var statusEl = bodyEl.querySelector('#modal-contact-status');
-    bindContactForm(form, statusEl);
+    bindContactForm(form, statusEl, options);
 
     overlay.classList.remove('hidden');
     overlay.setAttribute('aria-hidden', 'false');
@@ -193,6 +225,14 @@
 
     var firstInput = form && form.querySelector('input, textarea, select');
     if (firstInput) firstInput.focus();
+  }
+
+  function openContactModalForPdf(title, subject, pdfUrl, pdfLabel) {
+    openContactModal(title, subject, {
+      onSuccess: function () {
+        if (pdfUrl) triggerFileDownload(pdfUrl, (pdfLabel || 'arivuu-sample') + '.pdf');
+      }
+    });
   }
 
   function bindContactTriggers() {
@@ -209,6 +249,8 @@
 
   window.Arivuu = window.Arivuu || {};
   window.Arivuu.openContactModal = openContactModal;
+  window.Arivuu.openContactModalForPdf = openContactModalForPdf;
+  window.Arivuu.closeContactModal = closeContactModal;
 
   function showServiceFormStatus(statusEl, text, type) {
     if (!statusEl) return;
@@ -279,15 +321,15 @@
       var links = [];
       if (social.linkedin) {
         links.push(
-          '<a href="' + social.linkedin + '" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-nebula/10 border border-nebula/20 flex items-center justify-center hover:bg-nebula/20 transition-colors duration-300" aria-label="LinkedIn">' +
-            '<svg class="icon text-nebula" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>' +
+          '<a href="' + social.linkedin + '" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn">' +
+            '<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>' +
           '</a>'
         );
       }
       if (social.instagram) {
         links.push(
-          '<a href="' + social.instagram + '" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-nebula/10 border border-nebula/20 flex items-center justify-center hover:bg-nebula/20 transition-colors duration-300" aria-label="Instagram">' +
-            '<svg class="icon text-nebula" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>' +
+          '<a href="' + social.instagram + '" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Instagram">' +
+            '<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>' +
           '</a>'
         );
       }
