@@ -1,0 +1,19 @@
+{
+  "name": "Arivuu — Career Guidance & Counselling India",
+  "short_name": "Arivuu",
+  "description": "India's trusted career guidance platform — psychometric assessments, expert counsellors, and school partnerships for Class 8–12 students.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0f14",
+  "theme_color": "#1B8B7B",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "images/arivuu-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
