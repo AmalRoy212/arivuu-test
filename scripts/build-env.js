@@ -69,15 +69,45 @@ var robots = preventIndexing
 
 fs.writeFileSync(robotsPath, robots);
 
+function updateIndexSocialMeta(html, siteUrl) {
+  var ogImage = siteUrl + '/images/og-image.jpg';
+  var domain = siteUrl.replace(/^https?:\/\//, '');
+
+  html = html.replace(/<link rel="canonical" href="[^"]*"\s*\/?>/,
+    '<link rel="canonical" href="' + siteUrl + '/" />');
+  html = html.replace(/<meta property="og:url" content="[^"]*"\s*\/?>/,
+    '<meta property="og:url" content="' + siteUrl + '/" />');
+  html = html.replace(/<meta property="og:image" content="[^"]*"\s*\/?>/,
+    '<meta property="og:image" content="' + ogImage + '" />');
+  html = html.replace(/<meta property="og:image:secure_url" content="[^"]*"\s*\/?>/,
+    '<meta property="og:image:secure_url" content="' + ogImage + '" />');
+  html = html.replace(/<meta name="twitter:domain" content="[^"]*"\s*\/?>/,
+    '<meta name="twitter:domain" content="' + domain + '" />');
+  html = html.replace(/<meta name="twitter:url" content="[^"]*"\s*\/?>/,
+    '<meta name="twitter:url" content="' + siteUrl + '/" />');
+  html = html.replace(/<meta name="twitter:image" content="[^"]*"\s*\/?>/,
+    '<meta name="twitter:image" content="' + ogImage + '" />');
+  return html;
+}
+
+function updateIndexRobotsMeta(html, preventIndexing) {
+  var content = preventIndexing
+    ? 'noindex, nofollow, noarchive'
+    : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+  html = html.replace(/<meta name="robots" content="[^"]*"\s*\/?>/,
+    '<meta name="robots" content="' + content + '" />');
+  html = html.replace(/<meta name="googlebot" content="[^"]*"\s*\/?>/,
+    '<meta name="googlebot" content="' + content + '" />');
+  return html;
+}
+
 if (fs.existsSync(indexPath)) {
   var html = fs.readFileSync(indexPath, 'utf8');
-  var ogImage = siteUrl + '/images/og-image.jpg';
-  var updated = html
-    .replace(/https:\/\/arivuu\.com/g, siteUrl)
-    .replace(/content="arivuu\.com"/g, 'content="' + siteUrl.replace(/^https?:\/\//, '') + '"');
+  var updated = updateIndexSocialMeta(html, siteUrl);
+  updated = updateIndexRobotsMeta(updated, preventIndexing);
   if (updated !== html) {
     fs.writeFileSync(indexPath, updated);
-    console.log('Updated social card URLs in index.html → ' + siteUrl);
+    console.log('Updated SEO URLs in index.html → ' + siteUrl);
   }
 }
 
